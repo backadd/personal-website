@@ -3,24 +3,18 @@
     "company": "Sogeti",
     "role": "Software Engineer",
     "duration": "Aug 2022 - Oct 2023",
-    "description": "Developed automation solutions for multiple government agencies using UiPath and Python."
+    "description": "I was a senior engineer on a team that concurrently delivered automation projects to multiple of our clients. I actively participated in all parts of the automation lifecycle, including leading process discovery workshops, analyzing and documenting business processes, and successfully delivering automation solutions."
   },
   {
     "company": "Tietoevry",
     "role": "Senior Solutions Consultant (AI & Automation)",
     "duration": "Apr 2021 - Aug 2022",
-    "description": "Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi anim cupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit commodo officia dolor Lorem duis laboris cupidatat officia voluptate."
+    "description": "I designed and implemented automation workflows using UiPath and Blue Prism. My work includes developing a C# solution that streamlined the management of Sales Orders for an international company by converting various international sales orders into a standardized format. Additionally, I successfully delivered a proof of concept for an intelligent document processing initiative."
   },
   {
     "company": "Capgemini",
     "role": "Intelligent Automation Consultant",
     "duration": "Sep 2018 - Mar 2021",
-    "description": "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat."
-  },
-  {
-    "company": "Capgemini",
-    "role": "Intelligent Automation Consultant",
-    "duration": "Sep 2018 - Mar 2021",
-    "description": "Lorem ipsum dolo"
+    "description": "I served as a consultant on the Intelligent Automation team, where I specialized in delivering Robotic Process Automation (RPA) solutions to our clients. Additionally, I led a week-long crash course designed to upskill new RPA developers within the organization."
   }
 ]
