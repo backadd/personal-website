@@ -1,0 +1,38 @@
+.navbar {
+  background-color: transparent;
+  width: 100%;
+  position: fixed; /* Make the navbar fixed to the top */
+  top: 0;
+  left: 0;
+  transition: background-color 0.3s; /* Transition for the background color */
+  z-index: 10; /* Ensure the navbar is above other content */
+  /* ... rest of your styles */
+}
+
+.navbar.scrolled {
+  background-color: rgba(0, 0, 0, 0); /* Change to your desired background color with opacity */
+}
+
+.navbar-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end; /* Align items to the end (right) */
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.nav-link {
+  display: block;
+  padding: 14px;
+  color: white;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+  background-color: #555;
+}

@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap");
+.App {
+  text-align: center;
+  min-height: 100vh; /* Make sure it covers the full viewport height */
+  background: linear-gradient(135deg, #101827, #29153c); /* Your gradient */
+  color: white; /* Adjust text color for better contrast */
+}
+
+body {
+  font-family: "JetBrains Mono", monospace;
+}
+
+.top-container {
+  display: flex;
+  justify-content: flex-start; /* This will align items to the start of the container */
+  margin: 0 auto; /* This will center the .top-container horizontally */
+  max-width: 1100px; /* Adjust this value as needed to fit your layout */
+  width: 100%; /* This makes the .top-container take up 100% of the parent width */
+}
+
+.top-container > :first-child {
+  margin-right: 10px; /* Adjust the right margin as needed */
+}
+.content {
+  display: flex;
+  flex-direction: column; /* Stack children in a column */
+  align-items: center; /* Align children to the right */
+  margin: 0 auto;
+  max-width: 1100px;
+  width: 100%;
+}
+
+
+.experience {
+  align-self: flex-end;
+}

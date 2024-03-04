@@ -1,0 +1,13 @@
+.contact a {
+  color: #5ed683;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  color: #71ff9f;
+  text-shadow:
+    0 0 3px rgba(255, 255, 255, 0.3),
+    /* Horizontal shadow, Vertical shadow, Blur, Color with 70% opacity */ 0 0
+      5px rgba(255, 255, 255, 0.3),
+    0 0 8px rgba(255, 255, 255, 0.3);
+}

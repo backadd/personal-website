@@ -1,0 +1,43 @@
+/* Certification.css */
+.certification-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Slightly less space between boxes than work experience */
+  margin-top: 30px;
+  align-items: flex-end;
+  background: none;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.certification-box {
+  display: flex;
+  border: 0px solid #444; /* Darker border color for contrast */
+  padding: 20px;
+  border-radius: 12px; /* Soft rounded corners */
+  gap: 20px;
+  align-items: flex-start;
+  width: 50%;
+  background: rgba(16, 14, 27, 0.3); /* Dark background for the box */
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transitions for hover effects */
+  text-decoration: none;
+  color: white; /* Light text color for readability */
+}
+
+.certification-box:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  background: #100E1B;; /* Slightly lighter background on hover for contrast */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Deeper shadow for depth */
+}
+
+.certification-box h4 {
+  margin: 0; /* Removes margin around the certification name */
+  flex-grow: 1; /* Allows the name to grow and fill the space */
+}
+
+.certification-date {
+  color: #a39ba1; /* Lighter text color for the date */
+  font-size: 0.85em; /* Slightly smaller font size than work duration */
+  white-space: nowrap; /* Prevents the date from wrapping */
+  align-self: center;
+}
