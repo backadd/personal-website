@@ -5,7 +5,8 @@ const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
 
   // Function to handle smooth scrolling
-  const scrollToSection = (sectionId) => {
+  const scrollToSection = (sectionId, event) => {
+    event.preventDefault();
     const section = document.getElementById(sectionId);
     if (section) {
       section.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -34,13 +35,13 @@ const Navbar = () => {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <ul className="navbar-nav">
         <li className="nav-item">
-          <a href="#about" onClick={() => scrollToSection('about')} className="nav-link">About</a>
+          <a href="#about" onClick={(e) => scrollToSection('about', e)} className="nav-link">About</a>
         </li>
         <li className="nav-item">
-          <a href="#experience" onClick={() => scrollToSection('experience')} className="nav-link">Experience</a>
+          <a href="#experience" onClick={(e) => scrollToSection('experience', e)} className="nav-link">Experience</a>
         </li>
         <li className="nav-item">
-          <a href="#contact" onClick={() => scrollToSection('contact')} className="nav-link">Contact</a>
+          <a href="#contact" onClick={(e) => scrollToSection('contact', e)} className="nav-link">Contact</a>
         </li>
       </ul>
     </nav>
