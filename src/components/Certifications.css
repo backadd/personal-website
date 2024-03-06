@@ -41,3 +41,14 @@
   white-space: nowrap; /* Prevents the date from wrapping */
   align-self: center;
 }
+
+
+@media (max-width: 1660px) {
+  .certification-list{
+    align-items: center;
+  }
+
+  .certification-box{
+    width: 80%;
+  }
+}

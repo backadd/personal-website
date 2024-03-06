@@ -17,11 +17,11 @@
 }
 
 .work-experience-box:hover {
-  background-color: #100E1B; /* Change to your preferred hover background color */
+  background-color: #100e1b; /* Change to your preferred hover background color */
 }
 
 .work-duration {
-  color: #A39BA1;
+  color: #a39ba1;
   flex-basis: 30%; /* Set the width of the duration column */
   flex-shrink: 0; /* Prevents the duration column from shrinking */
   align-self: flex-start;
@@ -37,4 +37,18 @@
 
 .work-details h3 {
   margin-top: 0; /* Removes the top margin */
+}
+
+@media (max-width: 1660px) {
+  .work-experience-list {
+    align-items: center;
+  }
+
+  .work-experience-box {
+    width: 80%;
+    flex-direction: column;
+  }
+  .work-experience-box:hover {
+    background-color: transparent; /* Change to your preferred hover background color */
+  }
 }
