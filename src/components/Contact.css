@@ -1,3 +1,7 @@
+.contact{
+  margin: auto;
+}
+
 .contact a {
   color: #5ed683;
   text-decoration: none;
@@ -10,4 +14,11 @@
     /* Horizontal shadow, Vertical shadow, Blur, Color with 70% opacity */ 0 0
       5px rgba(255, 255, 255, 0.3),
     0 0 8px rgba(255, 255, 255, 0.3);
+}
+
+
+@media (max-width: 1660px) {
+  .contact{
+    width: 80%;
+  }
 }

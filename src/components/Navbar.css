@@ -37,7 +37,7 @@
   background-color: #555;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1660px) {
   .navbar.scrolled {
   background-color: rgba(0, 0, 0, 100); /* Change to your desired background color with opacity */
   }

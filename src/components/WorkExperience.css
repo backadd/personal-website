@@ -39,13 +39,14 @@
   margin-top: 0; /* Removes the top margin */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1660px) {
   .work-experience-list {
     align-items: center;
   }
 
   .work-experience-box {
-    width: 90%;
+    width: 80%;
+    flex-direction: column;
   }
   .work-experience-box:hover {
     background-color: transparent; /* Change to your preferred hover background color */
