@@ -1,16 +1,15 @@
 .navbar {
   background-color: transparent;
   width: 100%;
-  position: fixed; /* Make the navbar fixed to the top */
+  position: fixed;
   top: 0;
   left: 0;
-  transition: background-color 0.3s; /* Transition for the background color */
-  z-index: 10; /* Ensure the navbar is above other content */
-  /* ... rest of your styles */
+  transition: background-color 0.3s;
+  z-index: 10;
 }
 
 .navbar.scrolled {
-  background-color: rgba(0, 0, 0, 0); /* Change to your desired background color with opacity */
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .navbar-nav {
@@ -18,7 +17,7 @@
   padding: 0;
   margin: 0;
   display: flex;
-  justify-content: flex-end; /* Align items to the end (right) */
+  justify-content: flex-end;
 }
 
 .nav-item {
@@ -39,6 +38,6 @@
 
 @media (max-width: 1660px) {
   .navbar.scrolled {
-  background-color: rgba(0, 0, 0, 100); /* Change to your desired background color with opacity */
+    background-color: rgba(0, 0, 0, 100);
   }
 }

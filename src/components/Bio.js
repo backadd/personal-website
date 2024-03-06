@@ -6,7 +6,7 @@ const BioSection = () => {
   return (
     <div className="bio-section">
       {bioData.map((item, index) => (
-        <p key={index} className="bio-text">{item.paragraph}</p>
+        <p key={index}>{item.paragraph}</p>
       ))}
     </div>
   );

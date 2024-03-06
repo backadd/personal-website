@@ -1,8 +1,7 @@
-/* Certification.css */
 .certification-list {
   display: flex;
   flex-direction: column;
-  gap: 15px; /* Slightly less space between boxes than work experience */
+  gap: 15px;
   margin-top: 30px;
   align-items: flex-end;
   background: none;
@@ -12,43 +11,44 @@
 
 .certification-box {
   display: flex;
-  border: 0px solid #444; /* Darker border color for contrast */
+  border: 0px solid #444;
   padding: 20px;
-  border-radius: 12px; /* Soft rounded corners */
+  border-radius: 12px;
   gap: 20px;
   align-items: flex-start;
   width: 50%;
-  background: rgba(16, 14, 27, 0.3); /* Dark background for the box */
-  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transitions for hover effects */
+  background: rgba(16, 14, 27, 0.3);
+  transition:
+    box-shadow 0.3s ease,
+    transform 0.3s ease;
   text-decoration: none;
-  color: white; /* Light text color for readability */
+  color: white;
 }
 
 .certification-box:hover {
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
-  background: #100E1B;; /* Slightly lighter background on hover for contrast */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Deeper shadow for depth */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  background: #100e1b;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .certification-box h4 {
-  margin: 0; /* Removes margin around the certification name */
-  flex-grow: 1; /* Allows the name to grow and fill the space */
+  margin: 0;
+  flex-grow: 1;
 }
 
 .certification-date {
-  color: #a39ba1; /* Lighter text color for the date */
-  font-size: 0.85em; /* Slightly smaller font size than work duration */
-  white-space: nowrap; /* Prevents the date from wrapping */
+  color: #a39ba1;
+  font-size: 0.85em;
+  white-space: nowrap;
   align-self: center;
 }
 
-
 @media (max-width: 1660px) {
-  .certification-list{
+  .certification-list {
     align-items: center;
   }
 
-  .certification-box{
+  .certification-box {
     width: 80%;
   }
 }

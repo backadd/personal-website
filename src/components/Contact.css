@@ -1,4 +1,4 @@
-.contact{
+.contact {
   margin: auto;
 }
 
@@ -16,9 +16,8 @@
     0 0 8px rgba(255, 255, 255, 0.3);
 }
 
-
 @media (max-width: 1660px) {
-  .contact{
+  .contact {
     width: 80%;
   }
 }
