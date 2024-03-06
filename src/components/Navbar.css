@@ -36,6 +36,12 @@
   background-color: #555;
 }
 
+@media (max-width: 768px){
+  .navbar-nav{
+    justify-content: center;
+  }
+}
+
 @media (max-width: 1660px) {
   .navbar.scrolled {
     background-color: rgba(0, 0, 0, 100);
