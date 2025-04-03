@@ -1,5 +1,11 @@
 [
   {
+    "company": "Hypori",
+    "role": "Quality Assurance Test Engineer",
+    "duration": "Apr 2024 - Present",
+    "description": "I have been contributing to our Appium-based test automation framework using Java, where I developed and maintained comprehensive test cases and automated scripts. Additionally, I designed and integrated a Tesseract OCR implementation into the testing framework, enabling advanced optical character recognition capabilities that significantly improved test coverage and accuracy. I actively participate in code reviews and contribute to the enhancement of coding standards and best practices within the QA team."
+  },
+  {
     "company": "Sogeti",
     "role": "Software Engineer",
     "duration": "Aug 2022 - Oct 2023",
